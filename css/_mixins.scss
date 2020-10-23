@@ -1,0 +1,9 @@
+@mixin  base-card ( $border-radius, $bk-color ) {
+    
+    border-radius: $border-radius;
+    background-color: $bk-color;
+
+    // 80px
+    // 0.5rem
+}
+
