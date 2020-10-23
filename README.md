@@ -10,4 +10,4 @@ Thanks for checking out this front-end coding challenge.
 
 For this challenge I used **Flexbox**, **Grid**, **SCSS** and **BEM** methodology.
 
-Look at the project [here](https://github.com/VladimirValdes/social-proof);
+Look at the project [here](https://social-proof-dun.vercel.app);
