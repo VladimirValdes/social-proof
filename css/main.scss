@@ -61,6 +61,14 @@ body {
 		color: $dark-Mangneta;
 	}
 
+	&__images{
+		margin: 0;
+	}
+
+	&__img {
+		margin: 0;
+	}
+
 	&__text {
 		font-weight: $weight-sm;
 		color: $gray-Mangneta;

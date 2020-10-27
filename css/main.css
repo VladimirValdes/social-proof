@@ -48,6 +48,12 @@ body {
   font-weight: 700;
   color: #502050;
 }
+.card__images {
+  margin: 0;
+}
+.card__img {
+  margin: 0;
+}
 .card__text {
   font-weight: 400;
   color: #937b92;
