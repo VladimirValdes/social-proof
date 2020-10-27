@@ -29,6 +29,7 @@ body {
 }
 
 .card--first {
+	margin-top: 0.5rem;
 	width: 90%;
 	grid-row: 1/2;
 	display: flex;
@@ -44,7 +45,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	gap: 1rem;
 }
 
 .card {
@@ -54,9 +54,11 @@ body {
 		color: $dark-Mangneta;
 	}
 
+
 	&__subtitle {
 		font-weight: $weight-bg;
 		color: $dark-Mangneta;
+		margin-top: 0.5rem;
 	}
 
 	&__text {
@@ -71,6 +73,7 @@ body {
 		justify-content: end;
 		@include base-card($bd-radius, $ligth-gray);
 		height: 80px;
+		margin-bottom: 1rem;
 	}
 }
 
@@ -111,7 +114,7 @@ body {
 
 	&__description {
 		color: $white;
-		font-weight: $weight-sm;
+		font-weight: $weight-md;
 		font-size: 14px;
 		line-height: $line-h;
 		margin: 0;
