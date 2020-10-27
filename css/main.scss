@@ -71,7 +71,7 @@ body {
 	&__content {
 		display: flex;
 		flex-direction: column;
-		justify-content: end;
+		justify-content: start;
 		@include base-card($bd-radius, $ligth-gray);
 		height: 80px;
 		margin-bottom: 1rem;
