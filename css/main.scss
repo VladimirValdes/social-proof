@@ -59,7 +59,6 @@ body {
 	&__subtitle {
 		font-weight: $weight-bg;
 		color: $dark-Mangneta;
-		margin: 0;
 	}
 
 	&__text {
@@ -71,7 +70,7 @@ body {
 	&__content {
 		display: flex;
 		flex-direction: column;
-		justify-content: start;
+		justify-content: end;
 		@include base-card($bd-radius, $ligth-gray);
 		height: 80px;
 		margin-bottom: 1rem;
